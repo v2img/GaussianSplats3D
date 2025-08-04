@@ -6,8 +6,8 @@
   "module": "build/gaussian-splats-3d.module.js",
   "exports": {
     ".": {
-      "import": "./gaussian-library/gaussian-splats-3d.module.js",
-      "require": "./gaussian-library/gaussian-splats-3d.umd.cjs"
+      "import": "./gaussian_library/gaussian-splats-3d.module.js",
+      "require": "./gaussian_library/gaussian-splats-3d.umd.cjs"
     }
   },
   "author": "Mark Kellogg",
