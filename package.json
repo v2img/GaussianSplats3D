@@ -1,17 +1,13 @@
 {
   "name": "@mkkellogg/gaussian-splats-3d",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mkkellogg/GaussianSplats3D"
-  },
   "version": "0.4.7",
   "description": "Three.js-based 3D Gaussian splat viewer",
   "main": "build/gaussian-splats-3d.umd.cjs",
   "module": "build/gaussian-splats-3d.module.js",
   "exports": {
     ".": {
-      "import": "./build/gaussian-splats-3d.module.js",
-      "require": "./build/gaussian-splats-3d.umd.cjs"
+      "import": "./gaussian-library/gaussian-splats-3d.module.js",
+      "require": "./gaussian-library/gaussian-splats-3d.umd.cjs"
     }
   },
   "author": "Mark Kellogg",
