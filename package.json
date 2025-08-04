@@ -71,6 +71,6 @@
     "three": ">=0.160.0"
   },
   "files": [
-    "build/"
+    "gaussian_library/"
   ]
 }
